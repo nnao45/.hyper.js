@@ -41,7 +41,7 @@ module.exports = {
     backgroundColor: '#000',
 
     // terminal selection color
-    selectionColor: 'rgba(248,28,229,0.3)',
+    selectionColor: 'rgba(0,255,255,0.7)',
 
     // border color (window, tabs)
     borderColor: '#333',
@@ -182,7 +182,8 @@ module.exports = {
   // in development, you can create a directory under
   // `~/.hyper_plugins/local/` and include it here
   // to load it and avoid it being `npm install`ed
-  localPlugins: [],
+  localPlugins: [
+  ],
 
   keymaps: {
     // Example
