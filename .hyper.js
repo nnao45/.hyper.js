@@ -150,6 +150,12 @@ module.exports = {
       buttonBorderRadius: 2,
     },
 
+    hyperTabs: {
+      trafficButtons: false,
+      closeAlign: 'right',
+      activityPulse: true,
+    },
+
     broadcast: {
       debug: false,
       hotkeys: {
@@ -186,6 +192,7 @@ module.exports = {
   //   `project#1.0.1`
   plugins: [
     "hyperpower", 
+    "hyper-tabs-enhanced",
     "hyper-hide-title", 
     "hyper-search", 
     "hyper-pane", 
@@ -193,7 +200,6 @@ module.exports = {
     "hyperfullscreen",
     "hyper-material-theme",
     "hyperlinks",
-    "hyper-tab-icons",
     "hyper-highlight-active-pane"
   ],
 
