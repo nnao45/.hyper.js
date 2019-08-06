@@ -193,6 +193,7 @@ module.exports = {
     "hyperfullscreen",
     "hyper-material-theme",
     "hyperlinks",
+    "hyper-tab-icons",
     "hyper-highlight-active-pane"
   ],
 
