@@ -199,6 +199,7 @@ module.exports = {
     "hyper-broadcast", 
     "hyperfullscreen",
     "hyper-material-theme",
+    "hyperlinks",
     "hyper-highlight-active-pane"
   ],
 
