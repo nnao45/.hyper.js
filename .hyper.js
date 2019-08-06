@@ -125,8 +125,6 @@ module.exports = {
 
     // for advanced config flags please refer to https://hyper.is/#cfg
     //
-    // pokemon
-    // pokemon: 'Missingno',
     paneNavigation: {
       debug: false,
       hotkeys: {
@@ -178,11 +176,6 @@ module.exports = {
       vibrancy: 'dark'
     }
 
-    //verminal: {
-    //  showIndicators: false,
-    //  fontFamily: 'Noto Mono for Powerline',
-    //  fontSize: 18
-    //}
   },
 
   // a list of plugins to fetch and install from npm
