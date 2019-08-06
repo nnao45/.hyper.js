@@ -136,8 +136,10 @@ module.exports = {
           left: 'command+left',
           right: 'command+right',
         },
+        maximize: 'command+enter',
       },
-      showIndicators: false, 
+      showIndicators: true,
+      indicatorPrefix: '♛',
     },
 
     hyperSearchUI: {
