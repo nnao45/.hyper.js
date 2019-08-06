@@ -140,6 +140,12 @@ module.exports = {
       },
       showIndicators: true,
       indicatorPrefix: '♛',
+      indicatorStyle: { // Added to indicator <div>
+        position: 'absolute',
+        top: 0,
+        left: 0,
+        fontSize: '10px'
+      },
     },
 
     hyperSearchUI: {
@@ -163,6 +169,13 @@ module.exports = {
         height: "10px",
         background: "red"
       }
+    },
+
+    MaterialTheme: {
+      theme: 'Ocean',
+      backgroundOpacity: '1',
+      accentColor: '#64FFDA',
+      vibrancy: 'dark'
     }
 
     //verminal: {
@@ -185,6 +198,7 @@ module.exports = {
     "hyper-pane", 
     "hyper-broadcast", 
     "hyperfullscreen",
+    "hyper-material-theme",
     "hyper-highlight-active-pane"
   ],
 
