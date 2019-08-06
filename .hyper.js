@@ -182,6 +182,7 @@ module.exports = {
     "hyper-search", 
     "hyper-pane", 
     "hyper-broadcast", 
+    "hyperfullscreen",
     "hyper-highlight-active-pane"
   ],
 
