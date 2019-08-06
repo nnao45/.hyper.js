@@ -147,13 +147,13 @@ module.exports = {
     },
 
     hyperSearchUI: {
-      buttonBorderRadius: 2,
+      buttonBorderRadius: 2
     },
 
     hyperTabs: {
       trafficButtons: false,
-      closeAlign: 'right',
-      activityPulse: true,
+      tabIcons: false,
+      activityPulse: true
     },
 
     broadcast: {
@@ -191,16 +191,17 @@ module.exports = {
   //   `@company/project`
   //   `project#1.0.1`
   plugins: [
-    "hyperpower", 
     "hyper-tabs-enhanced",
-    "hyper-hide-title", 
-    "hyper-search", 
-    "hyper-pane", 
-    "hyper-broadcast", 
+    "hyper-hide-title",
+    "hyper-search",
+    "hyper-pane",
+    "hyper-broadcast",
     "hyperfullscreen",
     "hyper-material-theme",
     "hyperlinks",
-    "hyper-highlight-active-pane"
+    "hyper-highlight-active-pane",
+    "hyperpower",
+    "hyper-final-say"
   ],
 
   // in development, you can create a directory under
