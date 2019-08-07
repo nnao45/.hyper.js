@@ -64,6 +64,9 @@ module.exports = {
     // custom padding (CSS format, i.e.: `top right bottom left`)
     padding: '12px 14px',
 
+    // the number of rows to be persisted in terminal buffer for scrolling
+    scrollback: '3000',
+
     // the full list. if you're going to provide the full color palette,
     // including the 6 x 6 color cubes and the grayscale map, just provide
     // an array here instead of a color map object
@@ -118,7 +121,7 @@ module.exports = {
 
     // if `true` (without backticks and without quotes), on right click selected text will be copied or pasted if no
     // selection is present (`true` by default on Windows and disables the context menu feature)
-    // quickEdit: true,
+    quickEdit: false,
 
     // URL to custom bell
     // bellSoundURL: 'http://example.com/bell.mp3',
@@ -140,9 +143,9 @@ module.exports = {
       indicatorPrefix: '♛',
       indicatorStyle: { // Added to indicator <div>
         position: 'absolute',
-        top: 0,
-        left: 0,
-        fontSize: '10px'
+        top: -10,
+        left: 10,
+        fontSize: '15px'
       },
     },
 
