@@ -143,9 +143,9 @@ module.exports = {
       indicatorPrefix: '♛',
       indicatorStyle: { // Added to indicator <div>
         position: 'absolute',
-        top: -10,
-        left: 10,
-        fontSize: '15px'
+        top: 0,
+        left: 0,
+        fontSize: '10px'
       },
     },
 
@@ -178,6 +178,13 @@ module.exports = {
       }
     },
 
+    hyperBorder: {
+      animate: {
+        duration: '1s',  // default is 16s
+      },
+      borderWidth: '2px'
+    },
+
     MaterialTheme: {
       theme: 'Ocean',
       backgroundOpacity: '1',
@@ -204,6 +211,7 @@ module.exports = {
     "hyperlinks",
     "hyper-highlight-active-pane",
     "hyperpower",
+    "hyperborder",
     "hyper-final-say"
   ],
 
