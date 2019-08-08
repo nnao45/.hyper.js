@@ -182,6 +182,7 @@ module.exports = {
       animate: {
         duration: '1s',  // default is 16s
       },
+      borderColors: ['#94f8fd', '#51f679'],
       borderWidth: '2px'
     },
 
