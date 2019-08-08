@@ -9,7 +9,7 @@ module.exports = {
     updateChannel: 'stable',
 
     // default font size in pixels for all tabs
-    fontSize: 18,
+    fontSize: 16,
 
     // font family with optional fallbacks
     //fontFamily: 'Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
@@ -101,11 +101,11 @@ module.exports = {
     //
     // PowerShell on Windows
     // - Example: `C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe`
-    shell: '',
+    //shell: '',
 
     // for setting shell arguments (i.e. for using interactive shellArgs: `['-i']`)
     // by default `['--login']` will be used
-    shellArgs: ['--login'],
+    //shellArgs: ['--login'],
 
     // for environment variables
     env: {},
@@ -182,7 +182,7 @@ module.exports = {
       animate: {
         duration: '1s',  // default is 16s
       },
-      borderColors: ['#94f8fd', '#51f679'],
+      borderColors: ['#3547fb', '#51f679'],
       borderWidth: '2px'
     },
 
@@ -192,7 +192,6 @@ module.exports = {
       accentColor: '#64FFDA',
       vibrancy: 'dark'
     }
-
   },
 
   // a list of plugins to fetch and install from npm
