@@ -182,14 +182,14 @@ module.exports = {
       animate: {
         duration: '1s',  // default is 16s
       },
-      borderColors: ['#3547fb', '#51f679'],
+      borderColors: ['#FF3399', '#FFFF33'],
       borderWidth: '2px'
     },
 
     MaterialTheme: {
       theme: 'Ocean',
       backgroundOpacity: '1',
-      accentColor: '#64FFDA',
+      accentColor: '#FF66B2',
       vibrancy: 'dark'
     }
   },
